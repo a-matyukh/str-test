@@ -1,7 +1,7 @@
 import streamlit as st
 
 pg = st.navigation([
-    st.Page("my.py", title="Раз два три", icon="🔥"),
-    st.Page("your_app.py", title="Раз два триdfdf", icon="🔥"),
+    st.Page("frontend/calculator.py", title="Калькулятор", icon="🧮"),
+    st.Page("frontend/notes.py", title="Доска сообщений", icon="📝"),
 ])
 pg.run()
